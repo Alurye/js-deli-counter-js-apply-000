@@ -32,12 +32,12 @@ function currentLine(katzDeliLine){
     for (var i = 0; i < katzDeliLine.length; i++) {
           lineUpdate.push(counter + ". " + katzDeliLine[i]);
          counter++;
-         lineUpdate.join(',');
+
 
 
     }
 
-     return "The line is currently: " + lineUpdate;
+     return "The line is currently: " + lineUpdate.join(', ');
   }
 
 
