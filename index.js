@@ -10,14 +10,14 @@ const deliLine = ["Steven", "Blake", "Avi"];
 function nowServing(deliLine){
   if (deliLine.length === 0) {
       return "There is nobody waiting to be served!";
-  
+
   } else {
     for (var i = 0; i < deliLine.length; i++) {
         return "Currently serving " + deliLine.shift(deliLine[0]) + ".";
 
     }
   }
-  
+
 }
 
 
