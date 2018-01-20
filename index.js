@@ -35,7 +35,7 @@ function currentLine(katzDeliLine){
             lineUpdate +=  counter + ". " + katzDeliLine[i];
          counter++;
 
-        // console.log(lineUpdate);
+         console.log(katzDeliLine);
 
     }
 
