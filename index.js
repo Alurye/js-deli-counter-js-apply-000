@@ -27,16 +27,14 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length === 0) {
     return "The line is currently empty."
   } else {
-     return "The line is currently: " + counter + ". " + katzDeliLine.join(' ,');
+    katzDeliLine.join(',');
+    //  return "The line is currently: " + counter + ". "
     var lineUpdate = "";
     var counter = 1;
-
     for (var i = 0; i < katzDeliLine.length; i++) {
-
-            lineUpdate +=  counter + ". " + katzDeliLine[i] + ", ";
+            lineUpdate +=  counter + ". " + katzDeliLine[i];
          counter++;
 
-         lineUpdate.slice(0, -1);
         // console.log(lineUpdate);
 
     }
