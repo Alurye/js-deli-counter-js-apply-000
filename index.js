@@ -29,17 +29,17 @@ function currentLine(katzDeliLine){
   } else {
     katzDeliLine.join(',');
     //  return "The line is currently: " + counter + ". "
-    var lineUpdate = "";
-    var counter = 1;
-    for (var i = 0; i < katzDeliLine.length; i++) {
-            lineUpdate +=  counter + ". " + katzDeliLine[i];
-         counter++;
+    // var lineUpdate = "";
+    // var counter = 1;
+    // for (var i = 0; i < katzDeliLine.length; i++) {
+    //         lineUpdate +=  counter + ". " + katzDeliLine[i];
+    //      counter++;
+    //
+    //      console.log(katzDeliLine);
+    //
+    // }
 
-         console.log(katzDeliLine);
-
-    }
-
-     return "The line is currently: " + lineUpdate;
+    //  return "The line is currently: " + lineUpdate;
   }
 
 
