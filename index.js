@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
     for (var i = 0; i < katzDeliLine.length; i++) {
           lineUpdate.push(counter + ". " + katzDeliLine[i]);
          counter++;
-         lineUpdate.join(', ');
+         lineUpdate.join(',');
 
 
     }
